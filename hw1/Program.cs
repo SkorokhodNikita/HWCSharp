@@ -42,13 +42,27 @@
 
 
 // 3
+// Console.Write("Enter number: ");
+// string strNum = Console.ReadLine();
+// int num = int.Parse(strNum);
+
+// if(num % 2 == 0) {
+//     Console.WriteLine("Четное");
+// }
+// else{
+//     Console.WriteLine("Нечетное");
+// }
+
+// 4
 Console.Write("Enter number: ");
 string strNum = Console.ReadLine();
 int num = int.Parse(strNum);
 
-if(num % 2 == 0) {
-    Console.WriteLine("Четное");
-}
-else{
-    Console.WriteLine("Нечетное");
+int i = 0;
+
+while (i < num-1)
+{
+    i+=2;
+    Console.Write(i);
+    Console.Write(" ");
 }
