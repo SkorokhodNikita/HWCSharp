@@ -21,7 +21,6 @@ int SetNumber(string message)
 
 int NumToOne(int num, int count)
 {
-    //int count = 1;
     if (num == 1)
     {
         return num;
